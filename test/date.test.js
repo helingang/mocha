@@ -7,9 +7,9 @@ describe('测试日期函数today', function(){
         let date = d.getFullYear();
         expect(today()).to.be.equal(date);
     });
-    it('年份是否返回2015', function(){
+    it('年份不应当返回2015', function(){
         let d = new Date();
         let date = d.getFullYear();
-        expect(today()).to.be.equal(2015);
+        expect(today()).to.be.not.equal(2015);
     });
 })
