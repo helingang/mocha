@@ -6,5 +6,10 @@ describe('测试日期函数today', function(){
         let d = new Date();
         let date = d.getFullYear();
         expect(today()).to.be.equal(date);
+    });
+    it('是否返回2015', function(){
+        let d = new Date();
+        let date = d.getFullYear();
+        expect(today()).to.be.equal(2015);
     })
 })
