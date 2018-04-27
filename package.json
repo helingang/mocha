@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/helingang/mocha#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
     "mochawesome": "^3.0.2",

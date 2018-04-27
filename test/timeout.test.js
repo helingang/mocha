@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 
 describe('异步测试', function(){
-    it('测试应该在4000ms后结束', function(done){
+    it.skip('测试应该在4000ms后结束', function(done){
         var b = true;
         function fn(){
             b = false;

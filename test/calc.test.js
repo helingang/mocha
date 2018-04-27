@@ -1,5 +1,5 @@
-var add = require('../calc.js').add;
-var expect = require('chai').expect;
+import {add} from '../calc.js';
+import {expect} from 'chai';
 
 describe('加法函数的测试', function(){
     it('测试1+2=3', function(){

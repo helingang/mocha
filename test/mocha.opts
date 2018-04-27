@@ -2,3 +2,5 @@
 --watch
 --timeout 5000
 --slow 5000
+
+--compilers js:babel-core/register

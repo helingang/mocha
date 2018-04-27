@@ -1,5 +1,5 @@
-var today = require('../date.js').today;
-var expect = require('chai').expect;
+import {today} from '../date.js';
+import {expect} from 'chai';
 
 describe('测试日期函数today', function(){
     it('返回值应当是当前年份', function(){
