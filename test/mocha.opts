@@ -1,2 +1,2 @@
- --reporter mochawesome 
- --watch
+--reporter mochawesome 
+--watch
