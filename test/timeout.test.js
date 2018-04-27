@@ -8,6 +8,6 @@ describe('异步测试', function(){
             expect(b).to.be.not.ok;
             done();
         }
-        setTimeout(fn, 2000);
+        setTimeout(fn, 4000);
     })
 })
