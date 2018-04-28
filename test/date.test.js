@@ -1,7 +1,7 @@
 import {today} from '../date.js';
 import {expect} from 'chai';
 
-describe('测试日期函数today', function(){
+describe.skip('测试日期函数today', function(){
     it('返回值应当是当前年份', function(){
         let d = new Date();
         let date = d.getFullYear();
